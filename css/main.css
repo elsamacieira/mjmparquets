@@ -83,6 +83,7 @@ h1 {
 h2 {
 	font-size: 24px;
 	line-height: 30px;
+	color: #FFFFFF;
 }
 h3 {
 	font-size: 20px;
@@ -1158,7 +1159,7 @@ hr {
 /* page title
 ---------------------------------------------------------------------- */
 #page-title {
-	background: #12151b url(../images/home_pic.jpeg) no-repeat center center fixed;
+	background: #12151b url(../images/home.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -1278,7 +1279,7 @@ hr {
 /* k. Hero Section
 /* =================================================================== */
 #hero {
-	/*background: #12151b url(../images/home_pic.jpeg) no-repeat center center fixed;*/
+	/*background: #12151b url(../images/home.jpg) no-repeat center center fixed;*/
 	/*-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;*/
@@ -1291,8 +1292,8 @@ hr {
 
 #hero::before {   
 	content: '';
-	opacity: 0.30; 
-	background: #12151b url(../images/home_pic.jpeg) no-repeat center center;
+	opacity: 0.8; 
+	background: #12151b url(../images/home.jpg) no-repeat center center;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -1463,7 +1464,8 @@ hr {
 /* =================================================================== */
 #portfolio {
 	background: white;
-	padding-top: 120px;
+	padding-top: 120;
+	padding-bottom: 120px;
 }
 .ie #portfolio .row.items {
 	width: 1140px;
@@ -1487,7 +1489,7 @@ hr {
 	cursor: pointer;
 }
 .item .item-wrap .overlay {
-	background: #ed560e;
+	background: #B4DAD3;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -1533,7 +1535,7 @@ hr {
 }
 .item .item-wrap .portfolio-item-meta p {
 	font: 14px/18px "raleway-semibold", sans-serif;
-	color: #fbcab3;
+	color: #FFFFFF;
 	margin: 0;
 }
 
