@@ -1,2 +1,1 @@
-# MJM Parquets Website
-A Company Website
+## MJM Parquets
